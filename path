@@ -31,3 +31,4 @@ cd /usr/bin
 sudo rm $rimozione -f
 echo "Programma eliminato"
 esac
+exit

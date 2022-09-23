@@ -1,7 +1,8 @@
 #!/bin/sh
 sudo echo " "
 cd /home
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+echo "Installa yay eseguendo"
+echo "pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si"
 
 sudo systemctl start NetworkManager
 sudo systemctl enable NetworkManager
@@ -14,5 +15,5 @@ sudo systemctl enable sshd
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
 
-yay timeshift
-yay google-chrome
+echo "Installa/timeshift/google/telegram/qbittorrent"
+echo "yay timeshift googlechrom"

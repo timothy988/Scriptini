@@ -1,0 +1,25 @@
+#!/bin/sh
+echo "Programma che scarica le repositories del tuo github"
+read -p "Inserire il tuo username su github: " username
+echo ""
+read -p "Vuoi clonare in questa directory (y/n)? " bool
+case "$bool" in
+y|Y)
+echo "I am cloning in this directory " $PWD
+curl -s https://api.github.com/users/$username/repos | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 git clone;;
+n|N) echo "Ok come vuoi chiamare la cartella "
+ls -a
+read -p "Come vuoi chiamare la cartella: " cartella
+mkdir $cartella
+cd $cartella
+read -p "Ora ti clono le tue repositories in questa cartelle ok (y/n): " clono
+case "$clono" in
+y|Y)
+echo "Ora ti sto clonando la roba"
+curl -s https://api.github.com/users/$username/repos | grep \"clone_url\" | awk '{print $2}' | sed -e 's/"//g' -e 's/,//g' | xargs -n1 git clone;;
+n|N) echo "ora esco dal programma";;
+*) echo "Carattere non valido";;
+esac
+echo "Abbiamo finito";;
+esac
+cd "$cartella"

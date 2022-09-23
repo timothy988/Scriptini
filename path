@@ -1,0 +1,34 @@
+#!/bin/sh
+echo "Programma base che crea o togle degli eseguibili nella Path"
+echo " "
+read -p "Vuoi aggiungere un programma (y/n) " bool
+case "$bool" in
+	y|Y)
+location=$PWD
+sudo ls -a
+echo " "
+read -p "Inserisci il nome del file da mettere nella Path:  " file 
+sudo cp ./$file /opt/scripts/
+sudo ln -s /opt/scripts/$file /usr/bin/
+read -p "Vuoi eseguire il programma(y/n) " finale
+case "$finale" in
+	y|Y) echo "Ora eseguo il programma "
+		$file;;
+	n|N) echo "Ok programma non eseguito";;
+	esac
+echo "";;
+n|N)
+	echo "Rimozione programma"
+cd /
+cd /opt/scripts 
+ls -a
+	read -p "Che programma devo togliere: " rimozione
+cd /
+cd /opt/scripts 
+sudo rm $rimozione -f
+cd /
+cd /usr/bin
+sudo rm $rimozione -f
+echo "Programma eliminato"
+esac
+exit

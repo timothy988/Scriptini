@@ -1,0 +1,7 @@
+#!/bin/sh
+sudo echo ""
+yes|pacman -Syu
+yes|pacman -Syyu
+yes|pacman -Scc
+yes|pacman -Rns $(pacman -Qtdq)
+

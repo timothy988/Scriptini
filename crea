@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "Programma che crea scriptini"
+read -p "Come vuoi chiamare il tuo scriptino: " script
+touch $script
+chmod +x $script
+echo "Ho creato il file: "$script" e l'ho reso eseguibile"
+read -p "Vuoi modificare il file con vim (y/n)? " bool
+case "$bool" in
+y|Y) 
+nano  $script;;
+n|N)
+echo "Ok abbiamo finito";;
+*)echo "Comando non valido";;
+esac

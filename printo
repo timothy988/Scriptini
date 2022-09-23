@@ -1,0 +1,14 @@
+#!/bin/sh
+echo "Programma base che printa l'output di un codice in un file txt"
+echo ""
+read -p "Inserisci il codice che vuoi eseguire:  " programma
+read -p "Ok, come vuoi chiamare il file: " file
+$programma | cat > $file.txt
+read -p "Vuoi printare l'output del file(y/n) " bool
+case "$bool" in
+	y|Y)
+		cat $file.txt;;
+	n|N) echo "Ok abbiamo finito";;
+esac
+echo "Qua ho salvato il codice"
+echo "$file.txt"

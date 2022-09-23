@@ -1,8 +1,10 @@
 #!/bin/sh
 sudo echo " "
-cd /home
 echo "Installa yay eseguendo "
 echo "pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si"
+
+echo "Per far funzionare Discover"
+echo "yay packagekit-qt5"
 
 sudo systemctl start NetworkManager
 sudo systemctl enable NetworkManager
@@ -14,6 +16,6 @@ sudo systemctl enable sshd
 
 sudo systemctl start bluetooth.service
 sudo systemctl enable bluetooth.service
-
+exho " "
 echo "Installa/timeshift/google/telegram/qbittorrent"
 echo "yay timeshift googlechrom"

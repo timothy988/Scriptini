@@ -20,7 +20,7 @@
 weresrew
 
 
-<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./booksonic.sh) -->
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=booksonic.sh) -->
 
 ```bash
 ```

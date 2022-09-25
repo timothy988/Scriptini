@@ -18,11 +18,17 @@
 - [Update](#Update)
 <!--te-->
 
+```bash:./booksonic.sh
+```
+
+```:/Scriptini/booksonic.sh```
 
 <a name="ArchSetup"/> 
 
 ## ArchSetup
 > "Script da eseguire su una fresh install di arch"
+ 
+```bash:booksonic.sh[start:end]```
 
 <a name="Booksonic"/>
 
@@ -53,3 +59,5 @@
 
 ## Update
 > "Script che aggiorna e pulisce la cache"
+
+LICENSE 

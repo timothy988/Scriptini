@@ -6,7 +6,7 @@
 
 
 ## Table of contents
- <b>Lista scriptini Arch Linux</b>
+ <b>Lista scriptini:</b>
 <!--ts-->
 
 - [Arch](#ArchSetup)

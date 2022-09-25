@@ -17,28 +17,13 @@
 - [Print](#Print)
 - [Update](#Update)
 <!--te-->
-weresrew
-
-
-<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=booksonic.sh) -->
-
-```bash
-```
-
-<!-- MARKDOWN-AUTO-DOCS:END -->
-
-
-
-
-
-
 
 <a name="ArchSetup"/> 
 
 ## ArchSetup
 > "Script da eseguire su una fresh install di arch"
  
-```bash:booksonic.sh[start:end]```
+
 
 <a name="Booksonic"/>
 
@@ -70,4 +55,4 @@ weresrew
 ## Update
 > "Script che aggiorna e pulisce la cache"
 
-LICENSE 
+

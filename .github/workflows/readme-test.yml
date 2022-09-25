@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-jobs:
-      - name: Markdown autodocs
- 	uses: dineshsonachalam/markdown-autodocs@v1.0.7
 
+- name: Markdown autodocs
+- uses: dineshsonachalam/markdown-autodocs@v1.0.7

@@ -1,31 +1,55 @@
-# Scripts for Arch Linux
+# Arch Linux Scripts
 
 ![](https://archlinux.org/static/logos/archlinux-logo-dark-1200dpi.b42bd35d5916.png)
 
 ----------
 
-**Table of Contents**
 
-[TOC]
+## Table of contents
+ <b>Lista scriptini che uso per arch Linux</b>
+<!--ts-->
+
+- [Arch](#ArchSetup)
+- [Booksonic](#Booksonic)
+- [Crea](#Crea)
+- [DownloadGit](#DownloadGit)
+- [Path](#Path)
+- [Print](#Print)
+- [Update](#Update)
+<!--te-->
 
 
-##ArchSetup
+<a name="ArchSetup"/> 
+
+## ArchSetup
 > "Script da eseguire su una fresh install di arch"
 
-##Booksonic
+<a name="Booksonic"/>
+
+## Booksonic
 > "Script per installare e configurare Booksonic"
 
-##Crea
+<a name="Crea"/>
+
+## Crea
 > "Programma che crea scriptini"
 
-##DownloadGit
+<a name="DownloadGit"/>
+
+## DownloadGit
 > "Programma che scarica le repositories del tuo github"
 
-##Path
+<a name="Path"/>
+
+## Path
 > "Programma base che crea o togle degli eseguibili nella Path"
 
-##Print
+<a name="Print"/>
+
+## Print
 > "Programma base che printa l'output di un codice in un file txt"
 
-##Update
+<a name="Update"/>
+
+## Update
 > "Script che aggiorna e pulisce la cache"

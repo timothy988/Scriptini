@@ -1,13 +1,10 @@
-on: [push]
+name: Test code and embed into README
 
+on:
+  push:
+    branches:
+      - main
 jobs:
-  build:
-    name: Greeting
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        touch prova
-	echo test, and deploy your project.
+      - name: Markdown autodocs
+ 	uses: dineshsonachalam/markdown-autodocs@v1.0.7
+

@@ -6,7 +6,7 @@
 
 
 ## Table of contents
- <b>Lista scriptini che uso per arch Linux</b>
+ <b>Lista scriptini Arch Linux</b>
 <!--ts-->
 
 - [Arch](#ArchSetup)

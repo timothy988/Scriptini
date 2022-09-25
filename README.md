@@ -18,6 +18,10 @@
 - [Update](#Update)
 <!--te-->
 
+<object data="https://raw.githubusercontent.com/timothy988/Scriptini/main/archsetup" width="300" height="200">
+Placeholder Text
+</object>
+
 <a name="ArchSetup"/> 
 
 ## ArchSetup

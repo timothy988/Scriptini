@@ -18,8 +18,13 @@
 - [Update](#Update)
 <!--te-->
 
-```bash:./booksonic.sh
+```bash:booksonic.sh
 ```
+
+```py:booksonic.sh
+```
+
+
 
 ```:/Scriptini/booksonic.sh```
 

@@ -17,16 +17,21 @@
 - [Print](#Print)
 - [Update](#Update)
 <!--te-->
+weresrew
 
-```bash:booksonic.sh
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./booksonic.sh) -->
+
+```
 ```
 
-```py:booksonic.sh
-```
+<!-- MARKDOWN-AUTO-DOCS:END -->
 
 
 
-```:/Scriptini/booksonic.sh```
+
+
+
 
 <a name="ArchSetup"/> 
 

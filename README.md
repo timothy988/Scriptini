@@ -22,7 +22,7 @@ weresrew
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./booksonic.sh) -->
 
-```
+```bash
 ```
 
 <!-- MARKDOWN-AUTO-DOCS:END -->

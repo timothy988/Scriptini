@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 sudo echo " "
 sudo mkdir /var/booksonic
 sudo chmod 777 /var/booksonic/ -R

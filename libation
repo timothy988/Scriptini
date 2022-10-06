@@ -1,0 +1,7 @@
+#!/bin/sh
+yay unzip
+wget https://github.com/rmcrackan/Libation/releases/download/v8.4.6/Libation.8.4.6-linux-chardonnay.zip
+mv Libation.8.4.6-linux-chardonnay.zip libation-linux-bin.zip
+sudo ./install-libation.sh libation-linux-bin.zip
+rm libation-linux-bin.zip
+exit

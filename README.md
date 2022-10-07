@@ -1,3 +1,3 @@
 # Scriptini
 
-Scriptini oer Arch Linux
+Scriptini per Arch Linux

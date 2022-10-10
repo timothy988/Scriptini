@@ -8,6 +8,7 @@ location=$PWD
 sudo ls -a
 echo " "
 read -p "Inserisci il nome del file da mettere nella Path:  " file 
+
 sudo cp ./$file /opt/scripts/
 sudo ln -s /opt/scripts/$file /usr/bin/
 read -p "Vuoi eseguire il programma(y/n) " finale
